@@ -9,8 +9,8 @@ K-means clustering on 35 years of U.S. macroeconomic data to identify latent mac
 ## Key Findings
 
 - **Four distinct regimes** identified empirically: Goldilocks, Easy Policy/Low Growth, Crisis, and Overheating, each with economically interpretable characteristics consistent with macro theory
-- **Regime structure is robust** — Adjusted Rand Score of 1.0 against PCA-based clustering confirms regimes reflect genuine macro structure rather than feature correlation artifacts
-- **Cross-asset Sharpe ratios vary significantly across regimes** — gold dominates in Crisis (0.82) and Goldilocks (1.27); dollar is the only positive-Sharpe asset in Overheating (0.83); bonds produce their worst risk-adjusted returns during Overheating (-0.95)
+- **Regime structure is robust** : Adjusted Rand Score of 1.0 against PCA-based clustering confirms regimes reflect genuine macro structure rather than feature correlation artifacts
+- **Cross-asset Sharpe ratios vary significantly across regimes** : Gold dominates in Crisis (0.82) and Goldilocks (1.27); dollar is the only positive-Sharpe asset in Overheating (0.83); bonds produce their worst risk-adjusted returns during Overheating (-0.95)
 - **Regime-switching portfolio produces Sharpe of 1.08 vs 0.60 for static 60/40**, driven by lower volatility (7.5% vs 9.9%) and superior drawdown protection (-10.5% vs -30.0% maximum drawdown)
 
 ---
@@ -117,7 +117,5 @@ python-dotenv
 
 ## Extensions
 
-- **GMM** — probabilistic regime assignments to handle transition periods
-- **Regime transition matrix** — probability of moving between regimes
-- **Walk-forward validation** — out-of-sample regime detection
-- **Portfolio optimisation** — mean-variance or risk parity allocations within each regime
+- **GMM**: probabilistic regime assignments to handle transition periods
+- **Regime transition matrix**: probability of moving between regimes
