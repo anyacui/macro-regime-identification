@@ -1,6 +1,6 @@
 # Macro Regime Identification & Cross-Asset Analysis
 
-![S&P 500 with Macro Regimes](notebooks/images/regime_graph.png)
+![S&P 500 with Macro Regimes](images/regime_graph.png)
 
 K-means clustering on 35 years of U.S. macroeconomic data to identify latent macro regimes — and test whether regime awareness improves portfolio construction.
 
